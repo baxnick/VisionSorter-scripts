@@ -20,6 +20,8 @@ alias cdb="cd ${ART_LOC}/bin"
 alias vkp="vim ${SCRIPTS}/pathConfig.sh"
 alias rsi="source ${SCRIPTS}/pathConfig.sh"
 alias rrrc="source \"${SCRIPTS}/run_config.sh\""
+alias bup="${SCRIPTS}/bulk_update.sh"
+
 alias cv0="export VIDEO_DEVICE=/dev/video0;rrrc"
 alias cv1="export VIDEO_DEVICE=/dev/video1;rrrc"
 alias cv2="export VIDEO_DEVICE=/dev/video2;rrrc"
