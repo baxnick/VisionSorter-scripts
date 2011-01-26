@@ -3,8 +3,6 @@
 # you will have to set this variable if not using pathConfig.sh
 #export VIDEO_DEVICE=/dev/video0
 
-source ${SCRIPTS}/pathConfig.sh
-
 # use this in almost all cases
 export ARTOOLKIT_CONFIG="v4l2src device=${VIDEO_DEVICE} use-fixed-fps=false ! ffmpegcolorspace ! capsfilter caps=video/x-raw-rgb,bpp=24 ! identity name=artoolkit ! fakesink"
 
