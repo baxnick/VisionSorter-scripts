@@ -7,5 +7,7 @@ qtcreator artoolkitplus.pro &
 eclipse &
 dolphin "${LH}/ARToolKitPlus/bin/Data/" &
 konsole --new-tab --workdir ${LH}/ARToolKitPlus/bin
+konsole --new-tab --workdir ${LH}/ARToolKitPlus/bin
 konsole --new-tab --workdir ${LH}/ARToolKitPlus/VisionSystem/src/
+konsole --new-tab --workdir ${HOME}/code/_workspace/GripperBot
 

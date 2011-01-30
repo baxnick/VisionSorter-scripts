@@ -25,6 +25,7 @@ alias bup="${SCRIPTS}/bulk_update.sh"
 alias cv0="export VIDEO_DEVICE=/dev/video0;rrrc"
 alias cv1="export VIDEO_DEVICE=/dev/video1;rrrc"
 alias cv2="export VIDEO_DEVICE=/dev/video2;rrrc"
+alias cv3="export VIDEO_DEVICE=/dev/video2;rrrc"
 
 rrrc
 
