@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $0
+cd $1
 
 hg clone file:///home/baxnick/code/_workspace/GripperBot
 
