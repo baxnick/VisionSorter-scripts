@@ -21,6 +21,7 @@ alias vkp="vim ${SCRIPTS}/pathConfig.sh"
 alias rsi="source ${SCRIPTS}/pathConfig.sh"
 alias rrrc="source \"${SCRIPTS}/run_config.sh\""
 alias bup="${SCRIPTS}/bulk_update.sh"
+alias buc="${SCRIPTS}/bulk_copy.sh"
 
 alias cv0="export VIDEO_DEVICE=/dev/video0;rrrc"
 alias cv1="export VIDEO_DEVICE=/dev/video1;rrrc"
