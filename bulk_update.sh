@@ -15,3 +15,6 @@ hg push
 cd /home/baxnick/SummerProject/levelhead/ARToolKitPlus/id-markers/bch-copy/
 hg push
 
+cd /home/baxnick/SummerProject/helpful
+hg push
+
