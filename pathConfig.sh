@@ -1,19 +1,19 @@
 #!/bin/echo "Moar sauce"
 
-export VIDEO_DEVICE="/dev/video0"
+# Should be changed to reflect your own environment
 export LH="/home/baxnick/SummerProject/levelhead"
 export SCRIPTS="/home/baxnick/SummerProject/scripts"
 
+# Used for aliases/command line, not touch from within .pro files etc.
 export ART_LOC="${LH}/ARToolKitPlus"
 export ID_LOC="${ART_LOC}/id-markers/bch-copy/"
 
-export ARTOOLKIT_PATH=${LH}/artoolkit
-export ARTOOLKITPLUS_PATH=${LH}/ARToolKitPlus
-export ARTKP=${LH}/ARToolKitPlus
-export OSG=${LH}/OpenSceneGraph-2.8.3
-export MIXINC=${LH}/include
-export MIXLIB=${LH}/lib
+# Used by .pro to locate includes and libraries
+export ARTKP=${LH}/Monolith/ARToolKitPlus
+export MIXINC=${LH}/Monolith/include
+export MIXLIB=${LH}/Monolith/lib
 
+# Convienience aliases, only cvX are likely to be useful for "people, not me"
 alias cdl="cd ${LH}"
 alias cdi="cd ${ID_LOC}"
 alias cdb="cd ${ART_LOC}/bin"
@@ -28,5 +28,6 @@ alias cv1="export VIDEO_DEVICE=/dev/video1;rrrc"
 alias cv2="export VIDEO_DEVICE=/dev/video2;rrrc"
 alias cv3="export VIDEO_DEVICE=/dev/video2;rrrc"
 
-rrrc
+# Sets a default video device and starts run_config.sh
+cv0
 
