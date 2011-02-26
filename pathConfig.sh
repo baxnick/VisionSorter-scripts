@@ -9,7 +9,7 @@ export ART_LOC="${LH}/ARToolKitPlus"
 export ID_LOC="${ART_LOC}/id-markers/bch-copy/"
 
 # Used by .pro to locate includes and libraries
-export ARTKP=${LH}/Monolith/ARToolKitPlus
+export ARTKP=${LH}/Monolith/ARToolkitPlus
 export MIXINC=${LH}/Monolith/include
 export MIXLIB=${LH}/Monolith/lib
 

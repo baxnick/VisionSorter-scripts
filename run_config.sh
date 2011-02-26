@@ -12,7 +12,7 @@ export ARTOOLKIT_CONFIG="v4l2src device=${VIDEO_DEVICE} use-fixed-fps=false ! ff
 # if you're in the mood for some debugging....
 #export DEBUG="gddb"
 
-export LD_LIBRARY_PATH=.:${LH}/Monolith/lib/:${LD_LIBRARY_PATH}:/usr/local/lib
+export LD_LIBRARY_PATH=.:${MIXLIB}:${ARTKP}/lib:${LD_LIBRARY_PATH}:/usr/local/lib
 
 # set to osgart_artoolkitplus_tracker for the standard plugin
 # you won't get very far though, it's a little broken in places
